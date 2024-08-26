@@ -125,6 +125,7 @@ int main()
 		printf("\t1 - Registrar Nomes\n");
 		printf("\t2 - Consultar Nomes\n");
 		printf("\t3 - Deletar Nomes\n\n");
+		printf("\t4 - Sair do Sistema\n\n");
 		printf("opcao:");  // Fim do menu
 		printf("Esse Softare é de carlos henrique\n");
 		
@@ -145,6 +146,12 @@ int main()
 		case 3:
 		deletar();
 		break;
+		
+		case 4:
+			printf("obrigado por Utilizar o Sistema!\n");
+			return 0;
+			break;
+			
 		
 		default:
 		printf("Essa opção não está disponível!\n");
